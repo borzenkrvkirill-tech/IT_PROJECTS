@@ -1,6 +1,8 @@
-res://Player.tscn
-res://player.gd
-res://exit.gd
+res://enemy.gd
+res://coin.gd
+res://coin_score.gd
+res://coin_score.tscn
+res://enemy.tscn
 res://win.tscn
-res://Exit.tscn
+res://coin.tscn
 res://foerst.tscn

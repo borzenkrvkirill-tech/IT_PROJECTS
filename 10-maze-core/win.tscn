@@ -1,3 +1,17 @@
 [gd_scene format=3 uid="uid://6td5ry30e4p2"]
 
-[node name="Win" type="Node2D" unique_id=732638873]
+[node name="Win" type="CanvasLayer" unique_id=1079215648]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1118044178]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextEdit" type="TextEdit" parent="." unique_id=1945207087]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=267241167]
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1802523873]
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=251352819]

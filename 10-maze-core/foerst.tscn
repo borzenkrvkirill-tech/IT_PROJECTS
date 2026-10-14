@@ -3,6 +3,9 @@
 [ext_resource type="Texture2D" uid="uid://gfsvap7rgygo" path="res://floor.png.png" id="1_6oo75"]
 [ext_resource type="Texture2D" uid="uid://cnrywskc5ttfi" path="res://item.png.png" id="2_gj5nn"]
 [ext_resource type="Texture2D" uid="uid://c4ycpjqjyhk0m" path="res://wall.png.png" id="3_alsbk"]
+[ext_resource type="PackedScene" uid="uid://jeig2js1pyqe" path="res://Player.tscn" id="4_gj5nn"]
+[ext_resource type="PackedScene" uid="uid://si2jgpjrimq1" path="res://coin_score.tscn" id="5_alsbk"]
+[ext_resource type="PackedScene" uid="uid://bj1gknj5uqpua" path="res://enemy.tscn" id="6_jluk4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jluk4"]
 texture = ExtResource("1_6oo75")
@@ -50,3 +53,11 @@ layer_0/tile_data = PackedInt32Array(0, 0, 0, 65536, 0, 1, 1, 65536, 0, 65537, 6
 tile_set = SubResource("TileSet_3nh5u")
 format = 2
 layer_0/tile_data = PackedInt32Array(65535, 65536, 1, 131071, 65536, 1, 196607, 65536, 1, 262143, 65536, 1, 327679, 65536, 1, 393215, 65536, 1, 458751, 65536, 1, 524287, 65536, 1, 589823, 65536, 1, 655359, 65536, 1, 720895, 65536, 1, 786431, 65536, 1, 851967, 65536, 1, 917503, 65536, 1, 983039, 65536, 1, 1048575, 65536, 1, 1114111, 65536, 1, 1048576, 65536, 1, 1048577, 65536, 1, 1048578, 65536, 1, 1048579, 65536, 1, 1048580, 65536, 1, 1048581, 65536, 1, 1048582, 65536, 1, 1048583, 65536, 1, 1048584, 65536, 1, 1048585, 65536, 1, 1048586, 65536, 1, 1048587, 65536, 1, 1048588, 65536, 1, 1048589, 65536, 1, 1048590, 65536, 1, 983054, 65536, 1, 917518, 65536, 1, 851982, 65536, 1, 786446, 65536, 1, 720910, 65536, 1, 655374, 65536, 1, 589838, 65536, 1, 524302, 65536, 1, 458766, 65536, 1, 393230, 65536, 1, 327694, 65536, 1, 262158, 65536, 1, 196622, 65536, 1, 131086, 65536, 1, 65550, 65536, 1, 14, 65536, 1, -65522, 65536, 1, -1, 65536, 1, -65536, 65536, 1, -65535, 65536, 1, -65534, 65536, 1, -65529, 65536, 1, -65528, 65536, 1, -65527, 65536, 1, -65526, 65536, 1, -65525, 65536, 1, -65524, 65536, 1, -65523, 65536, 1, -65533, 65536, 1, -65532, 65536, 1, -65531, 65536, 1, -65530, 65536, 1)
+
+[node name="Player" parent="." unique_id=1025593098 instance=ExtResource("4_gj5nn")]
+position = Vector2(89, 44)
+
+[node name="CoinScore" parent="." unique_id=1407732737 instance=ExtResource("5_alsbk")]
+
+[node name="enemy" parent="." unique_id=1293654112 instance=ExtResource("6_jluk4")]
+position = Vector2(28, 206)
